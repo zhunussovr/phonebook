@@ -1,0 +1,34 @@
+[
+    {
+        "uname": "John Snow",
+        "umobile": "+45558883322",
+        "uphone": "No data",
+        "uemail": "j.snow@domain.local",
+        "utitle": "No data",
+        "udepartment": "No data"
+    },
+    {
+        "uname": "Nick Wild",
+        "umobile": "+45558883321",
+        "uphone": "555",
+        "uemail": "n.wild@domain.local",
+        "utitle": "Manager",
+        "udepartment": "Sales Department"
+    },
+    {
+        "uname": "Judy Hopes",
+        "umobile": "+45558883320",
+        "uphone": "757",
+        "uemail": "j.hopes@domain.local",
+        "utitle": "Software Engineer",
+        "udepartment": "Software Development"
+    },
+    {
+        "uname": "Cat Garfield",
+        "umobile": "+45558883319",
+        "uphone": "112",
+        "uemail": "c.garfield@domain.local",
+        "utitle": "Assistant",
+        "udepartment": "Office department"
+    }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom_styles.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/exportcsv.js"></script>
+  <script src="js/tablefromjson.js"></script>
+  <script src="js/sorttable.js"></script>
+</head>
+<body>
+<div class="container">
+        <div class="table-responsive" id="content">
+  <h1>List of contact of "Your company name"</h1>
+        </br>
+        <input type="text" class="form-control" id="search" onkeyup="myFunction()" placeholder="Search on the whole table..." title="SearchBox">
+        </br>
+        <button onclick="exportTableToCSV('contactlist.csv')">Export to CSV</button> &nbsp;
+        <button onclick="printDiv('print-content')" value="print a div!">Print</button>
+        </br>
+        </br>
+        <div id="print-content">
+        <table class="table table-bordered table-striped" id="employee_table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th>Mobile</th>
+                <th>SIP Number</th>
+                <th>email</th>
+                <th onclick="sortTable(2)">Position</th>
+                <th onclick="sortTable(3)">Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        </table>
+    </div>
+</div>
+</body>
+<footer>
+    <p class="footer-copyright text-center py-3">Published by IT Department</p>
+    <p class="footer-copyright text-center py-3">email: <a href="mailto:support@domain.local">support@domain.local</a>.</p>
+</footer>
+</html>
