@@ -6,11 +6,11 @@ import sys, json
 from ldap3 import Server, Connection, AUTO_BIND_NO_TLS, SUBTREE
 
 ## LDAP server information, please add info in single quotes
-ldap_server = 'XX.XX.XX.XX' # Insert name or IP adress of your LDAP/AD server
+ldap_server = '192.168.15.5' # Insert name or IP adress of your LDAP/AD server
 ldap_port = 389	#port for ldap server
-ldap_user = 'domain\\user' #ldap user domain\\user
-ldap_passwd = 'user_password' # password for ldap user
-ldap_baseDN = 'OU=Users,DC=domain,DC=local' # Base DN where you're going to search users
+ldap_user = 'uplift\\vagrant' #ldap user domain\\user
+ldap_passwd = 'vagrant' # password for ldap user
+ldap_baseDN = 'OU=DEMO01,DC=uplift,DC=local' # Base DN where you're going to search users
 
 # Function to retrieve users information from LDAP/AD server
 def get_ldap_info():
