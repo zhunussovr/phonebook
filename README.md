@@ -2,7 +2,7 @@
 Simple phone book with users from Active Directory
 It should be installed on some of your Linux web server
 
-Prerequisutes to run:
+Prerequisutes to run phbook.py:
 - Python v3
 - Python library ldap3
 
