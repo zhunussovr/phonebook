@@ -13,8 +13,8 @@ $sudo apt-get install python3
 # 2. pip3 installation
 $sudo apt-get install python3-pip
 
-# 3. Edit phbook.py only LDAP information section according to your LDAP/AD configuration
-# worked example provided in current branch
+# 3. Edit in phbook.py only LDAP information section according to your LDAP/AD configuration
+worked example provided in current branch
 
 # 4. Run under with python3 phbook.py
 $python3 phbook.py
